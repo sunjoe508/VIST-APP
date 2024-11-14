@@ -1,0 +1,41 @@
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .service-card {
+        margin: 10px;
+        flex: 1 0 45%;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .service-card {
+        margin: 5px;
+        flex: 1 0 100%;
+    }
+
+    .cta-button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
