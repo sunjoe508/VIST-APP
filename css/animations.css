@@ -1,0 +1,33 @@
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Add fadeIn animation to sections */
+section {
+    animation: fadeIn 1s ease-out;
+}
+
+.hero {
+    animation: slideIn 1s ease-out;
+}
+
+/* Hover Effect for Service Cards */
+.service-card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
